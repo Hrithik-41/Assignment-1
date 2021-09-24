@@ -1,0 +1,17 @@
+.parent{
+    width: 100%;
+    background-color: blue;
+} 
+
+.child{
+    height: 200px;
+    width: 18%;
+    background-color: red;
+    display: inline-block;
+}
+
+@media (max-width:420px) {
+    .child{
+        width:90%;
+    }
+}
